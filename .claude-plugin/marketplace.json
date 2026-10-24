@@ -1,0 +1,15 @@
+{
+  "name": "adhd-wise",
+  "description": "ADHD Wise Kit: productivity skills designed by and for ADHD brains",
+  "owner": {
+    "name": "ADHD Wise AI",
+    "url": "https://adhdwise.ai"
+  },
+  "plugins": [
+    {
+      "name": "adhd-wise-kit",
+      "source": "./plugins/adhd-wise-kit",
+      "description": "Inbox triage, admin sweep, where-was-I, time-reality planning and more"
+    }
+  ]
+}
