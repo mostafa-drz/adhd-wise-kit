@@ -10,6 +10,11 @@
       "name": "adhd-wise-kit",
       "source": "./plugins/adhd-wise-kit",
       "description": "Inbox triage, admin sweep, where-was-I, time-reality planning and more"
+    },
+    {
+      "name": "adhd-wise-bonus",
+      "source": "./plugins/adhd-wise-bonus",
+      "description": "Subscriber bonus: one thing today, and a body double for focus sessions"
     }
   ]
 }

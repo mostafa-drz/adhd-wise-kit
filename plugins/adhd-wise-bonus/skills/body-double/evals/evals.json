@@ -1,0 +1,25 @@
+[
+  {
+    "name": "start-and-drift",
+    "skills": ["body-double"],
+    "conversation": "(fresh chat, no connectors)",
+    "query": "body double me, I need to do my tax paperwork",
+    "expected_behavior": [
+      "Asks only for what's missing (length and done-for-this-session) in one message",
+      "Sets up a session with a small visible outcome and a tiny 2-minute opening move",
+      "Explains the dot / 'check' convention for check-ins",
+      "When the user later says they drifted to YouTube, replies without judgement and names one 2-minute move"
+    ]
+  },
+  {
+    "name": "with-scheduled-tasks",
+    "skills": ["body-double"],
+    "conversation": "(Claude Desktop with scheduled tasks available)",
+    "query": "focus session for 50 minutes on my slides, done = 5 slides drafted",
+    "expected_behavior": [
+      "Starts the session immediately without re-asking given details",
+      "Offers to set a halfway check-in and end nudge, and only sets them after a yes",
+      "Keeps replies under 6 lines during the session"
+    ]
+  }
+]

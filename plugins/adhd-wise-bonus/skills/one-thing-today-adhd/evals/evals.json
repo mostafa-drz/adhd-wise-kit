@@ -1,0 +1,26 @@
+[
+  {
+    "name": "connected-work-day",
+    "skills": ["one-thing-today-adhd"],
+    "conversation": "(Calendar and Gmail connected. Calendar: pricing review with Sam Friday 10:00. Gmail: Sam asked for the pricing draft on Tuesday, unanswered. 40 unread newsletters.)",
+    "query": "what's my one thing today?",
+    "expected_behavior": [
+      "Picks sending the pricing draft to Sam, citing Tuesday's ask and Friday's review",
+      "Gives a 5-minute first step that names the document or email",
+      "Lists inbox cleanup under Can wait, at most three items",
+      "Mentions only Calendar and Gmail as sources read",
+      "Offers to draft the email now"
+    ]
+  },
+  {
+    "name": "nothing-connected",
+    "skills": ["one-thing-today-adhd"],
+    "conversation": "(fresh chat, no connectors, no memory)",
+    "query": "I'm overwhelmed, where do I even start today",
+    "expected_behavior": [
+      "Asks exactly one question inviting a list, and does not guess",
+      "After the list, picks one thing with a two-sentence reason",
+      "Does not lecture or comment on being overwhelmed beyond one kind line"
+    ]
+  }
+]
