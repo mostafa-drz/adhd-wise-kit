@@ -1,0 +1,13 @@
+{
+  "name": "adhd-wise-bonus",
+  "displayName": "ADHD Wise (subscriber bonus)",
+  "version": "0.1.0",
+  "description": "Bonus productivity skills for ADHD Wise subscribers: pick your one thing for today, and a body double that keeps you company while you work.",
+  "author": {
+    "name": "ADHD Wise AI",
+    "url": "https://adhdwise.ai"
+  },
+  "homepage": "https://adhdwise.ai",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": ["adhd", "productivity", "focus", "body-doubling", "daily-focus"]
+}
