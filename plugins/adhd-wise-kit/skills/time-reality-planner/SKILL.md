@@ -26,7 +26,8 @@ plain words. **Only create or move calendar events after a yes.**
 Each person has a personal multiplier: how much longer things take than they guess.
 
 - **Start** with 1.5× if nothing is known.
-- **Learn it** from evidence: calendar events that ran over, focus blocks that were moved
+- **Learn it** from evidence: "time log" lines in memory (Shutdown & Tomorrow-Me Note
+  saves them, e.g. "guessed 1 h, took 2.5 h"), calendar events that ran over, focus blocks that were moved
   or repeated, past plans in Claude chats compared with what they said got done, and what
   they tell you ("that took all afternoon"). Ask, at most once per run: "Yesterday's
   report: you guessed 1 hour. How long did it really take?"
