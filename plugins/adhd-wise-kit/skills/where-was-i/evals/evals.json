@@ -1,0 +1,25 @@
+[
+  {
+    "name": "two-week-lapse",
+    "skills": ["where-was-i"],
+    "conversation": "(Gmail, Calendar, Drive connected. Last activity Oct 14. Drive: 'Q4 plan' edited Oct 13, sections 1-2 filled. Gmail since: manager asked 'any update on Q4 plan?' Oct 24; vendor replied with pricing Oct 20. Calendar: Q4 review moved to Nov 4.)",
+    "query": "I fell off for two weeks, where was I",
+    "expected_behavior": [
+      "Opens with 'Welcome back. Here's the short version.' and no guilt language",
+      "Names the Q4 plan with its last concrete point (sections 1-2 done)",
+      "Lists changes: manager's question, vendor pricing, review moved to Nov 4",
+      "Gives a 10-minute restart step on the Q4 plan",
+      "Offers to draft the reply to the manager"
+    ]
+  },
+  {
+    "name": "short-interruption-nothing-connected",
+    "skills": ["where-was-i"],
+    "conversation": "(fresh chat, no connectors)",
+    "query": "got pulled into a meeting, what was I doing",
+    "expected_behavior": [
+      "Asks one short question about what they were working on",
+      "Does not invent sources or activity"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "gmail-connected-mixed-inbox",
+    "skills": ["inbox-dread-triage"],
+    "conversation": "(Gmail connected. Waiting threads: landlord asked 9 days ago about inspection date; client Priya followed up twice on a quote, last follow-up yesterday; mom asked about Thanksgiving 12 days ago; 30 newsletters; utility bill email says payment failed, due in 2 days; old colleague's 'let's grab coffee sometime' 3 weeks ago.)",
+    "query": "I've been avoiding my inbox for weeks, help",
+    "expected_behavior": [
+      "Starts with the failed utility payment or Priya's quote, naming the consequence",
+      "Puts at most five items in Today, sorted by consequence not age",
+      "Puts the coffee invite under Let go or This week, framed as relief",
+      "Ignores newsletters",
+      "Drafts only the first reply, with at most one apology, and asks send/change/next",
+      "Does not send or archive anything"
+    ]
+  },
+  {
+    "name": "nothing-connected-paste",
+    "skills": ["inbox-dread-triage"],
+    "conversation": "(fresh chat, no connectors)",
+    "query": "what emails should I answer first? 1) HR asking me to complete benefits enrollment by Nov 15 2) a recruiter I don't care about 3) my friend asking how I'm doing 4) dentist reminder",
+    "expected_behavior": [
+      "Works from the pasted list without asking to connect first",
+      "Starts with HR benefits enrollment because of the Nov 15 deadline",
+      "Puts the recruiter under Let go",
+      "Drafts one reply and asks before moving on"
+    ]
+  }
+]
