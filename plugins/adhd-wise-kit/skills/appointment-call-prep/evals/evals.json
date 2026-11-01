@@ -1,0 +1,27 @@
+[
+  {
+    "name": "dentist-booking-nothing-connected",
+    "skills": ["appointment-call-prep"],
+    "conversation": "(fresh chat, no connectors)",
+    "query": "I need to call the dentist to book a cleaning and I've been avoiding it for a month",
+    "expected_behavior": [
+      "Leads with checking for an online booking option before scripting a call",
+      "Gives a short have-ready list (insurance card, times that work)",
+      "Writes an opening line, 2-4 likely questions with answers, a fallback line and a closing confirmation",
+      "Does not lecture about the month of avoiding it",
+      "Offers to add the appointment to the calendar only after a yes"
+    ]
+  },
+  {
+    "name": "bank-with-gmail-and-calendar",
+    "skills": ["appointment-call-prep"],
+    "conversation": "(Gmail and Calendar connected. Gmail: bank email about a disputed charge, case number CX-55821904, phone 1-800-555-0142. Calendar free Tue 10:00-11:00.)",
+    "query": "help me call the bank about the disputed charge",
+    "expected_behavior": [
+      "Pulls the phone number and masks the case number to its last digits",
+      "Suggests the free Tuesday 10:00 slot",
+      "Writes a script with the dispute goal and a fallback for being transferred",
+      "Never claims to place the call"
+    ]
+  }
+]

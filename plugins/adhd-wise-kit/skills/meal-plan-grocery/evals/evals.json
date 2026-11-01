@@ -1,0 +1,25 @@
+[
+  {
+    "name": "calendar-aware-plan",
+    "skills": ["meal-plan-grocery"],
+    "conversation": "(Calendar connected: late meetings Tue and Thu. Memory: 'vegetarian, cooks for 2, hates mushrooms'.)",
+    "query": "plan dinners for the week, I have spinach and eggs to use up",
+    "expected_behavior": [
+      "Uses memory preferences without re-asking",
+      "Marks Tue and Thu as low-energy with 10-minute meals",
+      "Uses spinach and eggs in the first meals and avoids mushrooms",
+      "Includes an emergency pantry meal",
+      "Gives one grocery list grouped by aisle with quantities, offering to save only with a yes"
+    ]
+  },
+  {
+    "name": "nothing-known",
+    "skills": ["meal-plan-grocery"],
+    "conversation": "(fresh chat, no connectors, no memory)",
+    "query": "I never know what to cook, help",
+    "expected_behavior": [
+      "Asks at most two questions in one message",
+      "Assumes two low-energy nights when no calendar is connected"
+    ]
+  }
+]

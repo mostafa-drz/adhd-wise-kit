@@ -1,0 +1,26 @@
+[
+  {
+    "name": "morning-routine",
+    "skills": ["routine-builder"],
+    "conversation": "(Claude Desktop, Calendar connected, scheduled tasks available.)",
+    "query": "I want a morning routine so I stop running late, I always make coffee first",
+    "expected_behavior": [
+      "Anchors the routine to making coffee",
+      "Gives 3-5 steps with times, under 20 minutes, easiest first",
+      "Includes a 2-minute bad-day version and a restart rule",
+      "Offers a calendar reminder or scheduled task and creates nothing without a yes",
+      "Never mentions streaks"
+    ]
+  },
+  {
+    "name": "routine-not-working",
+    "skills": ["routine-builder"],
+    "conversation": "(fresh chat, no connectors) User previously built an evening routine: tidy desk, plan tomorrow, read 20 min.",
+    "query": "my evening routine isn't working, I keep skipping it",
+    "expected_behavior": [
+      "Asks which step gets skipped instead of suggesting more discipline",
+      "Proposes shrinking a step, moving the anchor or swapping a step",
+      "Uses no shaming language"
+    ]
+  }
+]

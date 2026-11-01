@@ -1,0 +1,26 @@
+[
+  {
+    "name": "connected-normal-day",
+    "skills": ["shutdown-tomorrow-note"],
+    "conversation": "(Gmail, Calendar, Drive connected, memory on. Sent: invoice to client, reply to Sam. Drive: 'Q4 plan' edited, half done. Tomorrow calendar: standup 9:30.)",
+    "query": "wrap up my day",
+    "expected_behavior": [
+      "Lists finished items from sent mail and calls it a real day",
+      "Asks once what is still in their head and parks the Q4 plan with a next step",
+      "Asks how long one task took and offers to save a time log line only with a yes",
+      "Gives a 10-minute first step that fits before the 9:30 standup",
+      "Never lists things as not done or failed"
+    ]
+  },
+  {
+    "name": "bad-day-nothing-connected",
+    "skills": ["shutdown-tomorrow-note"],
+    "conversation": "(fresh chat, no connectors)",
+    "query": "shutdown. today was a mess, I barely did anything",
+    "expected_behavior": [
+      "Acknowledges kindly in one line without arguing or lecturing",
+      "Asks for even small things that got done",
+      "Keeps the note short with one small first step for tomorrow"
+    ]
+  }
+]

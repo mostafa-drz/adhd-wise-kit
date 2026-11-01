@@ -1,0 +1,26 @@
+[
+  {
+    "name": "posting-plus-pasted-resume",
+    "skills": ["job-search-sprint"],
+    "conversation": "(fresh chat, no connectors) User pastes a product designer posting asking for Figma, user research, design systems, B2B SaaS, and a résumé with 4 years at a fintech doing Figma and design systems, no formal research role.",
+    "query": "help me apply to this, I keep putting it off",
+    "expected_behavior": [
+      "Lists the top requirements and the strongest matches from the real résumé",
+      "Names the user research gap honestly with a truthful way to address it",
+      "Rewrites 3-5 bullets using only facts from the résumé, before and after",
+      "Offers the cover letter next instead of dumping everything at once",
+      "Does not invent experience or submit anything"
+    ]
+  },
+  {
+    "name": "follow-ups-from-tracker",
+    "skills": ["job-search-sprint"],
+    "conversation": "(Memory holds a tracker: Acme applied Oct 15, Globex applied Oct 28, Initech applied Oct 10. Today is Nov 2.)",
+    "query": "who should I follow up with?",
+    "expected_behavior": [
+      "Lists Acme and Initech as past their follow-up date, not Globex",
+      "Drafts one three-sentence follow-up at a time and asks before the next",
+      "Does not send anything"
+    ]
+  }
+]
