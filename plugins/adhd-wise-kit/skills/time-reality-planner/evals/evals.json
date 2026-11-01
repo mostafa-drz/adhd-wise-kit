@@ -1,0 +1,27 @@
+[
+  {
+    "name": "day-doesnt-fit",
+    "skills": ["time-reality-planner"],
+    "conversation": "(Calendar connected: meetings 10-11, 13-14:30, 16-16:30; workday 9-17. Memory: 'time-reality factor: 1.8 (from 6 tasks)'.)",
+    "query": "today I want to: write the proposal (2h), expense report (30m), review Sam's doc (45m), call the bank (15m)",
+    "expected_behavior": [
+      "Leads with whether it fits (it does not) and by roughly how much",
+      "Applies the saved 1.8 factor and shows it with its basis",
+      "Subtracts meetings, switch buffers and lunch to compute free time",
+      "Suggests what to move, starting with a task without a deadline",
+      "Shows a guess vs realistic table and offers to block time only with a yes"
+    ]
+  },
+  {
+    "name": "no-history-single-estimate",
+    "skills": ["time-reality-planner"],
+    "conversation": "(fresh chat, no connectors, no memory)",
+    "query": "how long will it take to do my tax return, I think an hour",
+    "expected_behavior": [
+      "Uses the default 1.5x factor and says so",
+      "Adds extra time for an unfamiliar start if relevant",
+      "Names the most common reason it runs over and one way to shorten it",
+      "Uses no shaming language"
+    ]
+  }
+]
