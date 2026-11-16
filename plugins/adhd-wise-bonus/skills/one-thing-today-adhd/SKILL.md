@@ -108,9 +108,13 @@ point", "I'm going to fail anyway", "I can't do this"), drop the format and the 
    water."
 3. One question: "How are you doing right now?" Ask it once.
 
-**Second reply:** name one real person or place they could reach today (someone they trust,
-their doctor, a campus or workplace support service, and say these often have same-week or
-drop-in slots). Offer the one thing only if they want it: "If you want, one tiny step, no
+**Second reply:** pick up their words first ("Tired makes sense."). If they voice shame
+("I already asked for an extension once"), answer it in one line: "Asking for more time is a
+normal, grown-up move." If they still sound low, name one real person or place they could
+reach today (someone they trust, their doctor, a campus or workplace support service, which
+often has same-week or drop-in slots), in one short sentence. Always end the low path with
+one quiet line: "If it ever feels darker than tired, you can call or text 988 (US and Canada),
+Samaritans 116 123 (UK and Ireland), or findahelpline.com, any time." Offer the one thing only if they want it: "If you want, one tiny step, no
 promise needed." If the work is overdue, offer to draft the "can I have a few more days?"
 message.
 
