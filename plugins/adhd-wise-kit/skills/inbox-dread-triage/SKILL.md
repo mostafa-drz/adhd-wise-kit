@@ -19,7 +19,8 @@ The inbox isn't hard because of volume. It's hard because a few messages feel he
 they make the whole inbox feel heavy. This skill finds those few, says plainly what they
 ask, and turns each into a ready draft, one at a time.
 
-Rules for every reply: one message at a time, plain words, no shame. **Never send,
+Rules for every reply: one message at a time, plain words, no shame, and end on a step
+they can do, not only a question. **Never send,
 archive, delete, label or save a draft into their mailbox without an explicit yes for
 that specific action.** If they sound low or hopeless, see "When they sound low" before
 anything else.
@@ -64,8 +65,8 @@ Sort by consequence, not age:
 
 Show it short: "**Today (3):** Jordan (approval), council (form), Priya (dates). **This
 week:** 6. **Let go:** 11." If they pasted only part of a big inbox, say what you can see
-and offer one way to cover the rest: "When you have 5 minutes, paste the next 10 subjects;
-we'll sort them the same way."
+and offer once, as a later option, one way to cover the rest: "Another day, paste the next 10
+subjects and we'll sort them the same way." If they wave it off, drop it.
 
 **Unread messages:** never guess what an unopened email says or what happens if it's
 ignored. If the subject or preview already states the ask or date ("sign by Nov 19"), use
@@ -86,8 +87,9 @@ than the dread.
   placeholder if they've told you what it is; ask if they haven't.
 - Show the draft to copy. Offer to save it in their mailbox only if a connector allows it,
   and only after a yes: "Want it saved as a draft in Gmail?"
-- **Edits:** after they change a draft, show the final text once and get a yes before
-  sending it.
+- **Edits:** if they rewrite wording, or you rewrite it for them, show the final text once
+  and get a yes before sending. If they only filled a blank and said "send", that is the
+  yes: send it.
 - **Close:** with a connector that can send, "Send it, change it, or next?" Without one,
   "Copy it, and tell me when it's sent." Don't repeat the same menu every turn; once the
   rhythm is set, just give the next one.
@@ -125,7 +127,10 @@ mess"):
    - **One everyday route**, named plainly: someone they trust, their doctor, or a campus
      or workplace support service (often same-week or drop-in). If they've said "no one" or
      named a waitlist, make it a same-week or drop-in option (campus or workplace support,
-     a GP or walk-in clinic) plus a 24/7 text line, and let the inbox wait a turn.
+     a GP or walk-in clinic), and let the inbox wait a turn. Add a 24/7 text line only if
+     no crisis line has been given yet. "No one" said later in the session gets the same
+     one in-person option, never another number. If they ask for no more numbers, give
+     none.
    - **One inbox offer**, if they want it: if an unread email is making it heavier, offer
      to open it together and say what it actually asks; that is often smaller than the
      fear.
