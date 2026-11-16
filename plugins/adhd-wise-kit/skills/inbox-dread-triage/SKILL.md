@@ -114,7 +114,8 @@ email contents, addresses or attachments in memory.
 
 ## Privacy
 
-Quote subject lines and the minimum needed; never paste whole emails back.
+Quote subject lines and the minimum needed; never paste whole emails back. If opening an
+unread email through the connector marks it as read, say so in a few words.
 
 ## When they sound low
 
