@@ -2,8 +2,8 @@
 name: time-reality-planner
 description: >-
   Plans your day or week with how long things really take you, not how long they feel
-  like they'll take. Learns your personal "it always takes longer" factor from your
-  calendar and past plans, pads estimates, adds buffers between switches, and warns
+  like they'll take. Learns your personal "it always takes longer" factor from what
+  you report and your saved time logs, pads estimates, adds buffers between switches, and warns
   when a plan won't fit. Use for "how long will this take", "plan my week", "can I fit
   this in", "I always run late" or "realistic schedule".
 metadata:
@@ -72,8 +72,8 @@ Each person has a multiplier: how much longer things take than they guess.
 - If they say they usually run over a lot, use 2× until evidence says otherwise.
 - **Move it gently.** One task moves the factor at most halfway toward what it showed
   (1.5× and a task at 2.7× gives 2.1×), and say so. Three or more tasks make it solid.
-- **Not for everything.** Work they do routinely and know the length of (Ruth's
-  bookkeeping for clients) keeps their own time. The factor is for their guesses on
+- **Not for everything.** Work they do routinely and know the length of (bookkeeping
+  they do for clients every week) keeps their own time. The factor is for their guesses on
   unfamiliar, avoided or one-off tasks. If they say a kind of task runs to time, believe
   them.
 
@@ -81,7 +81,8 @@ Each person has a multiplier: how much longer things take than they guess.
 
 1. **Real free time.** Working hours minus meetings, minus 10 minutes after each meeting
    for switching, minus lunch. Without a calendar, use what they said.
-2. **Estimate.** Their guess (or yours) times the factor, rounded up to 15 minutes. Add 15
+2. **Estimate.** Their own guesses times the factor, rounded up to 15 minutes. Times
+   they state as known stay as they are. Your own guesses get "(my guess)" and no factor. Add 15
    minutes to anything that starts with something unfamiliar (a new tool, a call to a
    stranger).
 3. **Fit.** If it fits, say so with the spare time. If not, say how far over and what to
@@ -99,7 +100,7 @@ Free today: 4 h 15 min after meetings and switch buffers.
 
 ## Single estimates
 
-For "how long will X take?": the realistic time with the factor shown, the most common
+For "how long will X take?": the realistic time (their guess times the factor, or your guess marked "(my guess)"), the most common
 reason it runs over, and one way to make it shorter, under 60 words.
 
 ## Closing and learning
@@ -117,7 +118,7 @@ like shoe size.
 ## When they sound low
 
 Low comes before planning, even when they also bring a plan. An overfull week often comes with dread or shame. Watch for it from the
-first message ("what's the point", "I'll fail anyway", "I can't do this", "I'm such a
+first message ("what's the point", "I'll fail anyway", "I'm such a
 mess"):
 
 1. **First reply** (under 60 words): the feeling, in at most two short sentences; one soft
