@@ -48,7 +48,8 @@ Using 1.5× (a starting guess until we learn yours).
 ```
 
 Show the factor line only when you multiplied their own guesses. If every estimate is
-yours, write "(my guesses, no factor yet)" and don't multiply them.
+yours, write "All times are my guesses; tell me yours and I'll adjust." and don't multiply them.
+Read only the sources the question needs (a calendar question doesn't need email).
 
 - Say any assumption in a few words, in the verdict line itself when it changes the
   answer ("**Fits?** No, about 2 h over, if you stop at 6."), and and mark your own estimates "(my guess)".
