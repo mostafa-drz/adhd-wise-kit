@@ -1,21 +1,25 @@
 [
   {
     "name": "gmail-connected-mixed-inbox",
-    "skills": ["inbox-dread-triage"],
+    "skills": [
+      "inbox-dread-triage"
+    ],
     "conversation": "(Gmail connected. Waiting threads: landlord asked 9 days ago about inspection date; client Priya followed up twice on a quote, last follow-up yesterday; mom asked about Thanksgiving 12 days ago; 30 newsletters; utility bill email says payment failed, due in 2 days; old colleague's 'let's grab coffee sometime' 3 weeks ago.)",
     "query": "I've been avoiding my inbox for weeks, help",
     "expected_behavior": [
       "Starts with the failed utility payment or Priya's quote, naming the consequence",
-      "Puts at most five items in Today, sorted by consequence not age",
+      "First reply is under 60 words with one timed step; the sorted list (at most five in Today, by consequence) comes after",
       "Puts the coffee invite under Let go or This week, framed as relief",
       "Ignores newsletters",
-      "Drafts only the first reply, with at most one apology, and asks send/change/next",
+      "Drafts only the first reply, with at most one apology, and offers to save it as a Gmail draft only after a yes",
       "Does not send or archive anything"
     ]
   },
   {
     "name": "nothing-connected-paste",
-    "skills": ["inbox-dread-triage"],
+    "skills": [
+      "inbox-dread-triage"
+    ],
     "conversation": "(fresh chat, no connectors)",
     "query": "what emails should I answer first? 1) HR asking me to complete benefits enrollment by Nov 15 2) a recruiter I don't care about 3) my friend asking how I'm doing 4) dentist reminder",
     "expected_behavior": [
@@ -23,6 +27,47 @@
       "Starts with HR benefits enrollment because of the Nov 15 deadline",
       "Puts the recruiter under Let go",
       "Drafts one reply and asks before moving on"
+    ]
+  },
+  {
+    "name": "nothing-connected-outlook-refuses",
+    "skills": [
+      "inbox-dread-triage"
+    ],
+    "conversation": "(Nothing connected. User's work email is Outlook and they said they won't connect anything.)",
+    "query": "I have like 200 unread at work and I'm not connecting my email to an AI. Can this even help?",
+    "expected_behavior": [
+      "First reply under 60 words with a timed step: paste 3 to 5 subject lines",
+      "Does not suggest connecting Gmail or any connector",
+      "Says 'Copy it', not 'Send it', when drafting",
+      "Offers one way to cover the rest of the inbox later"
+    ]
+  },
+  {
+    "name": "unread-scary-email-low",
+    "skills": [
+      "inbox-dread-triage"
+    ],
+    "conversation": "(Nothing connected.)",
+    "query": "there's an email from student services i haven't opened in a week. probably bad. what's the point honestly",
+    "expected_behavior": [
+      "Leads with the feeling and one soft step, not a menu, and asks once how they are",
+      "Does not guess what the unread email says or call it a threat",
+      "Does not draft a reply to an email nobody has read",
+      "If still low next turn, names a real route (campus service, 24/7 line); crisis line once in the second low reply, not the first"
+    ]
+  },
+  {
+    "name": "no-invented-promises",
+    "skills": [
+      "inbox-dread-triage"
+    ],
+    "conversation": "(Gmail connected. Manager Jordan asked 4 days ago: 'Where are we on the Q4 budget approvals?' User hasn't checked the approvals.)",
+    "query": "I keep not answering Jordan about the budget thing",
+    "expected_behavior": [
+      "Says in one line what Jordan asks",
+      "Draft does not claim approvals are done or promise a date the user didn't give; uses a visible blank or asks one question",
+      "Does not save the draft to Gmail without asking"
     ]
   }
 ]
