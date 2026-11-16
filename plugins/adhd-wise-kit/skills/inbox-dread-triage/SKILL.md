@@ -134,12 +134,13 @@ mess"):
      a GP or walk-in clinic), and let the inbox wait a turn. Add a 24/7 text line only if
      no crisis line has been given yet. "No one" said later in the session gets the same
      one in-person option, never another number. If they ask for no more numbers, give
-     none.
+     none. If they turn a route down because of where it is, give its phone or online
+     version in one line, once.
    - **One inbox offer**, if they want it: if an unread email is making it heavier, offer
      to open it together and say what it actually asks; that is often smaller than the
      fear.
 3. In the second low-path reply (not the first, unless there's any hint of self-harm), add
-   one short quiet line inside the 60 words, their country first if known: "If it ever
+   one short quiet line inside the 60 words. If their country is known (they said it, or their words make it plain: "council", "GP", "uni", "state"), give only that country's line. Otherwise: "If it ever
    gets darker: 988 (US/Canada), Samaritans 116 123 (UK/Ireland), findahelpline.com." Open that
    reply with one short line on the feeling, in their words ("Failing feels huge right
    now."). Then only the route, the offer and this line. Skip it if they've already said
