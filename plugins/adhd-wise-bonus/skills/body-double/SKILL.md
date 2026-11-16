@@ -56,8 +56,8 @@ easy:
   point." Respond to a dot with one line: acknowledge, and name the next tiny move.
 - When a scheduled task or reminder tool is available, offer to set a halfway check-in
   and an end-of-session nudge, and only set them after a yes. A calendar event is a weak
-  nudge; say so, and suggest the dot instead if they tend to dismiss alerts. If they
-  dismissed one this session, don't offer another; rely on the dot.
+  nudge; say so, and suggest the dot instead if they tend to dismiss alerts. If one went
+  unanswered or was dismissed this session, don't offer another; rely on the dot.
 - When they come back after a long gap, don't mention the gap. Ask: "Where are you at?
   Want to keep going or wrap up?"
 
@@ -83,6 +83,9 @@ Done: <what they actually did, specific>
 Nice. <one line naming the win, e.g. "That outline was the hardest part.">
 Next time: <one line, the next step, so tomorrow starts easy>
 ```
+
+If they gave a time estimate, add one line before "Next time": "Took <actual> against your
+<estimate>. Plan for <actual> next time." Say it as data, not a miss.
 
 Offer another round or a break. If memory is available and they agree, save one line:
 "Body double: <task>, <date>, done <outcome>".
