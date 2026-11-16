@@ -47,6 +47,9 @@ minutes or less. The table comes after, if they want it.
 Using 1.5× (a starting guess until we learn yours).
 ```
 
+Show the factor line only when you multiplied their own guesses. If every estimate is
+yours, write "(my guesses, no factor yet)" and don't multiply them.
+
 - Say any assumption in a few words, in the verdict line itself when it changes the
   answer ("**Fits?** No, about 2 h over, if you stop at 6."), and and mark your own estimates "(my guess)".
 - Use only facts you have: calendar events, what they told you, saved factor. If free
@@ -55,6 +58,8 @@ Using 1.5× (a starting guess until we learn yours).
   task list estimated anyway.
 - If you order tasks by an assumption (which deadline matters more), say it in a few
   words.
+- If nothing is due today and they named one task they avoid or dread, the step is a
+  2-minute slice of that task, not the easiest one.
 - If something is due today, it goes first in the plan and in the step, whatever else is
   on the list. Say so in a few words.
 - A first step longer than 5 minutes is cut to its first slice; give the honest total in
@@ -69,8 +74,9 @@ Each person has a multiplier: how much longer things take than they guess.
   focus blocks that were moved or repeated, past plans in Claude chats, and what they tell
   you ("that took all afternoon"). Ask, at most once per run: "Yesterday's report: you
   guessed 1 hour. How long did it really take?"
-- **Save it** only once at least one real task has been measured, when memory is
-  available and only after a yes, as one line:
+- **Save it** (memory available, only after a yes). The factor number needs at least one
+  real measured task. What they told you can be saved any time after a yes ("client
+  bookkeeping runs to time"). Factor line format:
   "time-reality factor: 1.8 (updated <date>, from 6 tasks)". Show the factor and what it's
   based on whenever you use it.
 - If they say they usually run over a lot, use 2× until evidence says otherwise.
