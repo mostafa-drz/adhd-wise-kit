@@ -1,7 +1,9 @@
 [
   {
     "name": "calendar-aware-plan",
-    "skills": ["meal-plan-grocery"],
+    "skills": [
+      "meal-plan-grocery"
+    ],
     "conversation": "(Calendar connected: late meetings Tue and Thu. Memory: 'vegetarian, cooks for 2, hates mushrooms'.)",
     "query": "plan dinners for the week, I have spinach and eggs to use up",
     "expected_behavior": [
@@ -14,12 +16,53 @@
   },
   {
     "name": "nothing-known",
-    "skills": ["meal-plan-grocery"],
+    "skills": [
+      "meal-plan-grocery"
+    ],
     "conversation": "(fresh chat, no connectors, no memory)",
     "query": "I never know what to cook, help",
     "expected_behavior": [
       "Asks at most two questions in one message",
       "Assumes two low-energy nights when no calendar is connected"
+    ]
+  },
+  {
+    "name": "iphone-add-messy",
+    "skills": [
+      "meal-plan-grocery"
+    ],
+    "conversation": "(Claude iPhone app, Reminders allowed. Reminders has a list 'Groceries' with: bread, milk.)",
+    "query": "we're out of eggs and bread and that oat milk, oh and stuff for tacos friday",
+    "expected_behavior": [
+      "Adds eggs, oat milk and likely taco items to the Groceries list without asking first",
+      "Says bread was already on instead of adding a duplicate",
+      "Replies in one or two short lines with the new item count and no setup talk"
+    ]
+  },
+  {
+    "name": "nothing-connected-add",
+    "skills": [
+      "meal-plan-grocery"
+    ],
+    "conversation": "(claude.ai web, no connectors, memory on, fresh chat)",
+    "query": "add coffee and dish soap to my shopping list",
+    "expected_behavior": [
+      "Keeps the list here and shows it as a short checklist",
+      "Offers the Todoist or iPhone setup once, in one line, without asking a question first",
+      "Remembers item names only"
+    ]
+  },
+  {
+    "name": "at-the-store",
+    "skills": [
+      "meal-plan-grocery"
+    ],
+    "conversation": "(Todoist connected, project 'Groceries' with 9 items. Memory: staples are coffee and eggs; coffee is not on the list.)",
+    "query": "at the store, what do I need",
+    "expected_behavior": [
+      "Shows only the list grouped by aisle in at most 5 groups, nothing above it",
+      "Adds one line that coffee is a staple not on the list, offering to add it",
+      "Makes no comments on what or how much they buy"
     ]
   }
 ]
